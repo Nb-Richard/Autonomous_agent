@@ -1,0 +1,53 @@
+services:
+ api:
+  build: ./api
+  ports:
+   - "3001:3001"
+  healthcheck:
+   test: ["CMD", "wget", "-qO-", "http://localhost:3001/health"]
+   interval: 10s
+   retries: 5
+ ollama:
+  image: ollama/ollama:latest
+  ports:
+   - "11434:11434"
+  volumes:
+   - ollama_data:/root/.ollama
+  # On machines with NVIDIA GPUs, uncomment:
+  # deploy:
+  # resources:
+  # reservations:
+  # devices:
+  # - driver: nvidia
+  # count: all
+  # capabilities: [gpu]
+ chromadb:
+  image: chromadb/chroma:latest
+  ports:
+   - "8000:8000"
+  volumes:
+   - chroma_data:/chroma/chroma
+ agent:
+  build:
+   context: .
+   dockerfile: agent/Dockerfile
+  depends_on:
+   api:
+    condition: service_healthy
+   ollama:
+    condition: service_started
+   chromadb:
+    condition: service_started
+  environment:
+   - API_BASE=http://api:3001
+   - OLLAMA_HOST=http://ollama:11434
+   - CHROMA_HOST=chromadb
+   - CHROMA_PORT=8000
+  volumes:
+   - chroma_data:/app/.chromadb
+  stdin_open: true
+  tty: true
+
+volumes:
+ ollama_data:
+ chroma_data:

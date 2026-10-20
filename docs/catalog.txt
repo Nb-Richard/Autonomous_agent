@@ -1,0 +1,26 @@
+PRODUCT CATALOG - DETAILED DESCRIPTION
+
+IT CATEGORY
+Laptop Pro X1 (P001): High-performance laptop designed for professionals.
+12th generation Intel Core i7 processor, 16 GB DDR5 RAM, 512 GB NVMe SSD.
+15.6-inch Full HD IPS anti-glare screen. 10-hour battery life. Weight: 1.8 kg.
+Ideal for developers, graphic designers, and data analysts.
+2-year manufacturer's warranty, extendable to 4 years. After-sales service within 48 hours.
+
+PERIPHERALS CATEGORY
+Ergonomic Mouse (P002): Designed to prevent musculoskeletal disorders.
+Vertical shape, 6 programmable buttons, 1600 DPI optical sensor.
+Compatible with Windows, macOS, and Linux. Wired USB connection.
+1-year warranty. Recommended for intensive use (more than 4 hours/day).
+
+RGB Mechanical Keyboard (P042): High-end gaming and office keyboard.
+Cherry MX Red switches (linear, quiet). Customizable RGB backlighting.
+75% compact format with arrow keys. Anti-ghosting for 6 simultaneous keystrokes.
+Compatible with all systems. 1-year warranty.
+
+DISPLAY CATEGORY
+27-inch screen (P003): Professional monitor with IPS 4K UHD panel (3840x2160).
+Refresh rate 60 Hz, response time 5 ms, brightness 350 cd/m2.
+Ports: 2x HDMI 2.0, 1x DisplayPort 1.4, 4x USB-A hub integrated.
+Height and tilt adjustable stand. Flicker-Free and Low Blue Light certified.
+3-year warranty with standard replacement within 72 hours in case of failure.

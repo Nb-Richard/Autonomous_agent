@@ -1,0 +1,14 @@
+STOCK POLICY 
+Any product whose stock falls below 10 units must be automatically replenished. 
+A stock level of 0 indicates that the product is out of stock. 
+Stock shortages must be reported to the sales manager within 24 hours. 
+
+ORDER PROCEDURE 
+An order with the status ‘pending’ is awaiting approval from the sales department. 
+An order with the status “in progress” is being prepared in the warehouse. 
+An order with the status “delivered” has been shipped and received by the customer. 
+
+PRODUCT CATEGORIES 
+IT: laptops, desktops, servers. 2-year warranty. 
+Peripherals: keyboards, mice, webcams. 1-year warranty. 
+Displays: monitors, projectors. 3-year warranty.
